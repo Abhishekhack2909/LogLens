@@ -18,7 +18,7 @@ DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
 def create_architecture_diagram():
     """Generates the System Architecture Diagram."""
-    fig, ax = plt.subplots(figsize=(10, 6.2), dpi=300)
+    fig, ax = plt.subplots(figsize=(10, 6.2), dpi=160)
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 6.2)
     ax.axis("off")
@@ -67,7 +67,7 @@ def create_architecture_diagram():
 
 def create_workflow_diagram():
     """Generates the Ingestion & Analysis Workflow Diagram."""
-    fig, ax = plt.subplots(figsize=(10, 5), dpi=300)
+    fig, ax = plt.subplots(figsize=(10, 5), dpi=160)
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 5)
     ax.axis("off")
@@ -107,7 +107,7 @@ def create_workflow_diagram():
 
 def create_use_case_diagram():
     """Generates the System Use Case Diagram."""
-    fig, ax = plt.subplots(figsize=(9, 5.5), dpi=300)
+    fig, ax = plt.subplots(figsize=(9, 5.5), dpi=160)
     ax.set_xlim(0, 9)
     ax.set_ylim(0, 5.5)
     ax.axis("off")
@@ -152,7 +152,7 @@ def create_use_case_diagram():
 
 def create_sequence_diagram():
     """Generates the Sequence Diagram for Log Analysis."""
-    fig, ax = plt.subplots(figsize=(10, 6), dpi=300)
+    fig, ax = plt.subplots(figsize=(10, 6), dpi=160)
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 6)
     ax.axis("off")
@@ -200,7 +200,7 @@ def create_sequence_diagram():
 
 def create_class_diagram():
     """Generates the Class & Component Diagram."""
-    fig, ax = plt.subplots(figsize=(10, 6.5), dpi=300)
+    fig, ax = plt.subplots(figsize=(10, 6.5), dpi=160)
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 6.5)
     ax.axis("off")
