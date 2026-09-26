@@ -1,0 +1,274 @@
+2026-09-26 08:00:48 ERROR api-gateway Upstream service timeout connecting to payment-gateway
+2026-09-26 08:01:35 INFO api-gateway Health check endpoint responded with status UP in 241ms
+2026-09-26 08:03:55 INFO auth User session established for account 3504
+2026-09-26 08:06:05 INFO payment-service User session established for account 2584
+2026-09-26 08:10:34 INFO inventory Order #89252 verified and dispatched to queue
+2026-09-26 08:16:33 DEBUG inventory Payload validation passed for schema v2.4
+2026-09-26 08:17:04 WARNING api-gateway Retry attempt 1/3 for downstream endpoint notification-service
+2026-09-26 08:21:01 DEBUG inventory Cache hit for key catalog:item:325
+2026-09-26 08:22:13 DEBUG notification-worker Acquired database connection from pool [active=14, idle=6]
+2026-09-26 08:24:24 WARNING inventory Retry attempt 1/3 for downstream endpoint notification-service
+2026-09-26 08:25:42 INFO notification-worker User session established for account 7118
+2026-09-26 08:27:10 ERROR payment-service Database query timeout while updating order #97323
+2026-09-26 08:27:57 INFO inventory Health check endpoint responded with status UP in 82ms
+2026-09-26 08:29:09 INFO order-service Dispatching delivery notification email to user 3287
+2026-09-26 08:31:52 WARNING auth Slow query detected on table orders: query took 349ms
+2026-09-26 08:32:58 INFO auth Health check endpoint responded with status UP in 323ms
+2026-09-26 08:34:46 WARNING api-gateway Retry attempt 1/3 for downstream endpoint notification-service
+2026-09-26 08:35:14 DEBUG notification-worker Serialized response buffer size 43242 bytes
+2026-09-26 08:36:12 INFO notification-worker User session established for account 2139
+2026-09-26 08:40:07 INFO auth Token refreshed successfully for bearer 5506
+2026-09-26 08:46:07 INFO notification-worker Order #99209 verified and dispatched to queue
+2026-09-26 08:46:29 DEBUG inventory Payload validation passed for schema v2.4
+2026-09-26 08:54:14 INFO auth Order #68217 verified and dispatched to queue
+2026-09-26 08:56:53 INFO order-service Token refreshed successfully for bearer 4923
+2026-09-26 08:57:34 INFO auth Dispatching delivery notification email to user 7912
+2026-09-26 09:03:03 INFO inventory Dispatching delivery notification email to user 8811
+2026-09-26 09:03:25 INFO notification-worker Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 110ms
+2026-09-26 09:03:41 INFO inventory Inventory reservation succeeded for SKU-871
+2026-09-26 09:05:54 INFO api-gateway User session established for account 2122
+2026-09-26 09:06:04 INFO inventory User session established for account 4492
+2026-09-26 09:06:42 DEBUG payment-service Cache hit for key catalog:item:520
+2026-09-26 09:09:12 INFO order-service Order #53832 verified and dispatched to queue
+2026-09-26 09:14:04 DEBUG auth Acquired database connection from pool [active=14, idle=6]
+2026-09-26 09:19:23 INFO auth Health check endpoint responded with status UP in 139ms
+2026-09-26 09:20:59 INFO order-service Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 172ms
+2026-09-26 09:18:22 TRACE auth Verbose packet tracing enabled
+2026-09-26 09:27:11 DEBUG order-service Cache hit for key catalog:item:995
+2026-09-26 09:30:13 INFO payment-service Health check endpoint responded with status UP in 13ms
+2026-09-26 09:34:08 INFO notification-worker User session established for account 8744
+2026-09-26 09:35:56 DEBUG payment-service Acquired database connection from pool [active=14, idle=6]
+2026-09-26 09:40:54 INFO order-service Inventory reservation succeeded for SKU-357
+2026-09-26 09:42:41 INFO order-service Dispatching delivery notification email to user 8491
+2026-09-26 09:42:52 INFO inventory User session established for account 5905
+2026-09-26 09:47:28 WARNING inventory Retry attempt 1/3 for downstream endpoint notification-service
+2026-09-26 09:47:35 INFO api-gateway Token refreshed successfully for bearer 5462
+2026-09-26 09:50:29 DEBUG order-service Serialized response buffer size 41342 bytes
+2026-09-26 09:53:17 ERROR auth Database query timeout while updating order #71859
+2026-09-26 09:56:15 DEBUG order-service Cache hit for key catalog:item:548
+2026-09-26 09:56:26 INFO auth Token refreshed successfully for bearer 3938
+2026-09-26 09:56:36 INFO api-gateway Dispatching delivery notification email to user 1651
+2026-09-26 09:57:09 INFO inventory User session established for account 1590
+2026-09-26 10:03:13 WARNING payment-service Retry attempt 1/3 for downstream endpoint notification-service
+2026-09-26 10:07:56 INFO order-service Order #88049 verified and dispatched to queue
+2026-09-26 10:09:01 INFO auth Inventory reservation succeeded for SKU-725
+2026-09-26 10:14:01 INFO notification-worker Health check endpoint responded with status UP in 154ms
+2026-09-26 10:16:02 DEBUG notification-worker Acquired database connection from pool [active=14, idle=6]
+2026-09-26 10:17:22 INFO notification-worker User session established for account 9346
+2026-09-26 10:18:15 INFO order-service Inventory reservation succeeded for SKU-653
+2026-09-26 10:19:18 INFO api-gateway Inventory reservation succeeded for SKU-721
+2026-09-26 10:23:27 INFO auth Order #90839 verified and dispatched to queue
+2026-09-26 10:24:30 WARNING auth Rate limit threshold reached (80%) for IP 198.51.100.219
+2026-09-26 10:26:42 INFO payment-service User session established for account 3851
+2026-09-26 10:29:03 INFO inventory Dispatching delivery notification email to user 5082
+2026-09-26 10:32:19 INFO notification-worker Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 368ms
+2026-09-26 10:34:47 INFO notification-worker Inventory reservation succeeded for SKU-325
+2026-09-26 10:35:38 INFO order-service Health check endpoint responded with status UP in 380ms
+2026-09-26 10:40:39 INFO order-service Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 356ms
+2026-09-26 10:41:44 ERROR auth Failed to deserialize incoming JSON payload from client
+2026-09-26 10:43:13 INFO inventory Token refreshed successfully for bearer 8752
+2026-09-26 10:44:09 INFO notification-worker Inventory reservation succeeded for SKU-524
+2026-09-26 10:46:50 WARNING order-service Slow query detected on table orders: query took 71ms
+2026-09-26 10:53:40 INFO order-service Token refreshed successfully for bearer 9540
+2026-09-26 10:54:30 DEBUG api-gateway Acquired database connection from pool [active=14, idle=6]
+2026-09-26 10:55:47 INFO api-gateway User session established for account 5371
+2026-09-26 10:56:40 INFO inventory Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 208ms
+2026-09-26 10:58:35 INFO payment-service Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 255ms
+2026-09-26 11:01:05 DEBUG order-service Payload validation passed for schema v2.4
+2026-09-26 11:01:24 WARNING order-service Retry attempt 1/3 for downstream endpoint notification-service
+2026-09-26 11:03:09 DEBUG api-gateway Acquired database connection from pool [active=14, idle=6]
+2026-09-26 11:03:16 DEBUG payment-service Serialized response buffer size 17942 bytes
+2026-09-26 11:03:16 INFO payment-service Token refreshed successfully for bearer 2869
+2026-09-26 11:06:44 INFO order-service Token refreshed successfully for bearer 2983
+2026-09-26 11:06:53 INFO api-gateway Dispatching delivery notification email to user 5853
+2026-09-26 11:08:17 INFO auth Health check endpoint responded with status UP in 369ms
+2026-09-26 11:10:38 INFO inventory Order #60732 verified and dispatched to queue
+2026-09-26 11:14:41 DEBUG auth Acquired database connection from pool [active=14, idle=6]
+2026-09-26 11:15:08 INFO payment-service Order #86960 verified and dispatched to queue
+2026-09-26 11:17:19 INFO order-service Dispatching delivery notification email to user 4777
+2026-09-26 11:17:48 INFO payment-service Order #55367 verified and dispatched to queue
+2026-09-26 11:21:17 INFO inventory Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 276ms
+2026-09-26 25:99:00 INFO api-gateway Invalid timestamp values
+2026-09-26 11:23:04 INFO inventory Inventory reservation succeeded for SKU-969
+2026-09-26 11:23:40 ERROR payment-service Upstream service timeout connecting to payment-gateway
+2026-09-26 11:24:21 INFO auth Order #71300 verified and dispatched to queue
+2026-09-26 11:30:35 INFO inventory Inventory reservation succeeded for SKU-863
+2026-09-26 11:34:01 WARNING payment-service Slow query detected on table orders: query took 231ms
+2026-09-26 11:36:43 DEBUG payment-service Acquired database connection from pool [active=14, idle=6]
+2026-09-26 11:39:51 INFO inventory Order #80465 verified and dispatched to queue
+2026-09-26 11:46:26 INFO payment-service Health check endpoint responded with status UP in 342ms
+2026-09-26 11:48:31 INFO auth Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 252ms
+2026-09-26 11:48:44 DEBUG api-gateway Payload validation passed for schema v2.4
+2026-09-26 11:54:15 INFO auth Token refreshed successfully for bearer 5569
+2026-09-26 12:05:20 INFO order-service User session established for account 6296
+2026-09-26 12:05:30 WARNING order-service Rate limit threshold reached (80%) for IP 198.51.100.27
+2026-09-26 12:05:38 INFO auth Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 321ms
+2026-09-26 12:09:31 INFO auth Health check endpoint responded with status UP in 181ms
+2026-09-26 12:10:15 DEBUG api-gateway Serialized response buffer size 22142 bytes
+2026-09-26 12:11:30 DEBUG inventory Serialized response buffer size 31142 bytes
+2026-09-26 12:14:59 DEBUG order-service Payload validation passed for schema v2.4
+2026-09-26 12:18:02 INFO api-gateway Token refreshed successfully for bearer 5720
+2026-09-26 12:19:35 INFO auth User session established for account 7684
+2026-09-26 12:24:29 INFO order-service Health check endpoint responded with status UP in 304ms
+2026-09-26 12:26:02 ERROR order-service Failed to deserialize incoming JSON payload from client
+2026-09-26 12:26:44 INFO payment-service Inventory reservation succeeded for SKU-510
+2026-09-26 12:28:07 INFO payment-service Inventory reservation succeeded for SKU-512
+2026-09-26 12:30:30 WARNING api-gateway Retry attempt 1/3 for downstream endpoint notification-service
+2026-09-26 12:31:40 WARNING payment-service Rate limit threshold reached (80%) for IP 198.51.100.34
+2026-09-26 12:31:55 INFO api-gateway Dispatching delivery notification email to user 8316
+2026-09-26 12:32:17 INFO auth Token refreshed successfully for bearer 5634
+2026-09-26 12:39:03 INFO inventory User session established for account 2625
+2026-09-26 12:41:53 INFO api-gateway Health check endpoint responded with status UP in 272ms
+2026-09-26 12:42:55 INFO inventory Health check endpoint responded with status UP in 108ms
+2026-09-26 12:43:53 INFO inventory Health check endpoint responded with status UP in 149ms
+2026-09-26 12:47:56 INFO api-gateway Health check endpoint responded with status UP in 416ms
+2026-09-26 12:49:33 INFO payment-service Dispatching delivery notification email to user 8381
+2026-09-26 12:52:09 DEBUG auth Payload validation passed for schema v2.4
+2026-09-26 12:56:44 INFO payment-service Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 323ms
+2026-09-26 13:00:57 INFO payment-service Order #94407 verified and dispatched to queue
+2026-09-26 13:04:30 INFO order-service Order #90845 verified and dispatched to queue
+2026-09-26 13:07:08 INFO auth Dispatching delivery notification email to user 1609
+2026-09-26 13:08:05 INFO order-service Dispatching delivery notification email to user 6352
+2026-09-26 13:08:24 INFO payment-service Dispatching delivery notification email to user 7078
+2026-09-26 13:14:40 DEBUG api-gateway Acquired database connection from pool [active=14, idle=6]
+2026-09-26 13:15:31 INFO inventory Token refreshed successfully for bearer 3344
+2026-09-26 13:18:01 DEBUG notification-worker Cache hit for key catalog:item:108
+2026-09-26 13:28:06 WARNING inventory Slow query detected on table orders: query took 85ms
+2026-09-26 13:34:07 INFO payment-service Health check endpoint responded with status UP in 356ms
+2026-09-26 13:37:19 INFO notification-worker Inventory reservation succeeded for SKU-356
+2026-09-26 13:39:04 ERROR api-gateway Failed to deserialize incoming JSON payload from client
+2026-09-26 13:40:06 INFO notification-worker Token refreshed successfully for bearer 1645
+2026-09-26 13:40:23 WARNING auth Rate limit threshold reached (80%) for IP 198.51.100.227
+2026-09-26 13:43:50 INFO api-gateway Token refreshed successfully for bearer 3785
+2026-09-26 13:45:55 INFO auth Order #60902 verified and dispatched to queue
+2026-09-26 13:47:46 DEBUG api-gateway Payload validation passed for schema v2.4
+2026-09-26 13:50:03 INFO order-service Dispatching delivery notification email to user 6873
+2026-09-26 13:51:18 DEBUG notification-worker Acquired database connection from pool [active=14, idle=6]
+2026-09-26 13:54:30 INFO auth Token refreshed successfully for bearer 4886
+2026-09-26 13:54:43 DEBUG inventory Cache hit for key catalog:item:741
+2026-09-26 13:55:43 INFO notification-worker Order #86524 verified and dispatched to queue
+2026-09-26 13:56:23 WARNING inventory Rate limit threshold reached (80%) for IP 198.51.100.66
+2026-09-26 13:58:38 DEBUG notification-worker Payload validation passed for schema v2.4
+2026-09-26 13:58:39 DEBUG api-gateway Serialized response buffer size 24942 bytes
+2026-09-26 14:01:11 CRITICAL order-service Database connection pool exhausted: zero idle connections available
+2026-09-26 14:02:44 ERROR api-gateway Upstream service timeout connecting to payment-gateway
+2026-09-26 14:05:25 INFO order-service Token refreshed successfully for bearer 6562
+2026-09-26 14:05:27 CRITICAL order-service Database connection pool exhausted: zero idle connections available
+2026-09-26 14:05:41 WARNING notification-worker Slow query detected on table orders: query took 21ms
+2026-09-26 14:06:09 CRITICAL payment-service Database connection pool exhausted: zero idle connections available
+2026-09-26 14:07:33 CRITICAL payment-service Database connection pool exhausted: zero idle connections available
+2026-09-26 14:08:24 CRITICAL payment-service Primary payment gateway unresponsive; failover circuit breaker tripped
+--- RECOVERY RESTART INITIATED ---
+2026-09-26 14:09:47 ERROR order-service Upstream service timeout connecting to payment-gateway
+2026-09-26 14:09:50 INFO inventory Order #68171 verified and dispatched to queue
+2026-09-26 14:10:23 INFO order-service Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 55ms
+2026-09-26 14:11:16 ERROR order-service Upstream service timeout connecting to payment-gateway
+2026-09-26 14:13:49 ERROR order-service Database query timeout while updating order #68969
+2026-09-26 14:17:13 ERROR api-gateway Upstream service timeout connecting to payment-gateway
+2026-09-26 14:19:41 INFO notification-worker Dispatching delivery notification email to user 7421
+2026-09-26 14:21:49 WARNING payment-service Slow query detected on table orders: query took 91ms
+2026-09-26 14:24:41 ERROR api-gateway Failed to deserialize incoming JSON payload from client
+2026-09-26 14:26:22 WARNING notification-worker Slow query detected on table orders: query took 159ms
+2026-09-26 14:27:20 ERROR payment-service Database query timeout while updating order #74530
+2026-09-26 14:28:06 INFO order-service Inventory reservation succeeded for SKU-761
+2026-09-26 14:28:33 ERROR order-service Failed to deserialize incoming JSON payload from client
+2026-09-26 14:28:56 ERROR payment-service Upstream service timeout connecting to payment-gateway
+2026-09-26 14:33:19 ERROR payment-service Upstream service timeout connecting to payment-gateway
+2026-09-26 14:33:42 INFO order-service Order #64451 verified and dispatched to queue
+2026-09-26 14:34:57 CRITICAL order-service Database connection pool exhausted: zero idle connections available
+2026-09-26 14:35:23 CRITICAL payment-service Primary payment gateway unresponsive; failover circuit breaker tripped
+2026-09-26 14:36:25 CRITICAL payment-service Primary payment gateway unresponsive; failover circuit breaker tripped
+2026-09-26 14:36:32 INFO api-gateway Health check endpoint responded with status UP in 126ms
+2026-09-26 14:37:03 INFO order-service Order #54862 verified and dispatched to queue
+2026-09-26 14:38:03 ERROR order-service Upstream service timeout connecting to payment-gateway
+2026-09-26 14:38:27 ERROR payment-service Upstream service timeout connecting to payment-gateway
+2026-09-26 14:39:40 ERROR order-service Failed to deserialize incoming JSON payload from client
+2026-09-26 14:40:39 ERROR order-service Upstream service timeout connecting to payment-gateway
+2026-09-26 14:42:13 CRITICAL payment-service Database connection pool exhausted: zero idle connections available
+2026-09-26 14:45:58 INFO payment-service Order #55294 verified and dispatched to queue
+2026-09-26 14:46:54 INFO notification-worker Order #71847 verified and dispatched to queue
+2026-09-26 14:48:39 ERROR order-service Upstream service timeout connecting to payment-gateway
+2026-09-26 14:49:23 ERROR api-gateway Failed to deserialize incoming JSON payload from client
+2026-09-26 14:49:40 ERROR api-gateway Failed to deserialize incoming JSON payload from client
+2026-09-26 14:51:11 CRITICAL order-service Database connection pool exhausted: zero idle connections available
+2026-09-26 14:53:18 ERROR api-gateway Failed to deserialize incoming JSON payload from client
+2026-09-26 14:53:44 ERROR order-service Failed to deserialize incoming JSON payload from client
+2026-09-26 14:53:48 INFO inventory Health check endpoint responded with status UP in 428ms
+2026-09-26 14:55:47 WARNING auth Rate limit threshold reached (80%) for IP 198.51.100.221
+2026-09-26 14:57:02 INFO payment-service User session established for account 4084
+2026-09-26 15:01:40 INFO inventory Order #97090 verified and dispatched to queue
+2026-09-26 15:05:23 DEBUG api-gateway Acquired database connection from pool [active=14, idle=6]
+2026-09-26 15:08:02 DEBUG order-service Serialized response buffer size 8342 bytes
+2026-09-26 15:11:53 DEBUG notification-worker Cache hit for key catalog:item:590
+2026-09-26 15:15:36 ERROR payment-service Database query timeout while updating order #93540
+2026-09-26 15:18:48 ERROR notification-worker Upstream service timeout connecting to payment-gateway
+2026-09-26 15:20:59 INFO order-service Health check endpoint responded with status UP in 290ms
+2026-09-26 15:23:27 DEBUG payment-service Payload validation passed for schema v2.4
+2026-09-26 15:24:23 INFO order-service Token refreshed successfully for bearer 1266
+2026-09-26 15:32:33 WARNING payment-service Slow query detected on table orders: query took 321ms
+2026-09-26 15:32:49 DEBUG inventory Acquired database connection from pool [active=14, idle=6]
+2026-09-26 15:33:34 INFO inventory Token refreshed successfully for bearer 9316
+2026-09-26 14:28:15 WARNING
+2026-09-26 15:38:24 DEBUG api-gateway Acquired database connection from pool [active=14, idle=6]
+2026-09-26 15:38:33 INFO payment-service Inventory reservation succeeded for SKU-343
+2026-09-26 15:39:00 INFO auth Token refreshed successfully for bearer 1311
+2026-09-26 15:40:06 INFO inventory Token refreshed successfully for bearer 6447
+2026-09-26 15:40:50 INFO inventory Dispatching delivery notification email to user 8489
+2026-09-26 15:41:12 INFO order-service Health check endpoint responded with status UP in 347ms
+2026-09-26 15:41:30 INFO order-service User session established for account 2680
+2026-09-26 15:45:49 INFO payment-service User session established for account 1605
+2026-09-26 15:46:28 ERROR auth Failed to deserialize incoming JSON payload from client
+2026-09-26 15:48:10 INFO order-service Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 437ms
+2026-09-26 15:52:28 INFO order-service Inventory reservation succeeded for SKU-154
+2026-09-26 15:57:53 DEBUG api-gateway Serialized response buffer size 23742 bytes
+2026-09-26 15:59:51 INFO inventory Health check endpoint responded with status UP in 229ms
+2026-09-26 16:01:31 INFO notification-worker Health check endpoint responded with status UP in 166ms
+2026-09-26 16:01:47 INFO api-gateway Order #83930 verified and dispatched to queue
+2026-09-26 16:08:39 INFO auth Inventory reservation succeeded for SKU-507
+2026-09-26 16:11:34 INFO order-service Inventory reservation succeeded for SKU-181
+2026-09-26 16:15:50 INFO payment-service Dispatching delivery notification email to user 1430
+2026-09-26 16:24:36 INFO auth User session established for account 3513
+2026-09-26 16:25:08 INFO order-service Order #86808 verified and dispatched to queue
+2026-09-26 16:28:11 DEBUG notification-worker Payload validation passed for schema v2.4
+2026-09-26 16:29:13 DEBUG order-service Payload validation passed for schema v2.4
+2026-09-26 16:33:09 INFO order-service Dispatching delivery notification email to user 3697
+2026-09-26 16:33:22 WARNING api-gateway Slow query detected on table orders: query took 269ms
+2026-09-26 16:36:08 INFO inventory User session established for account 7012
+2026-09-26 16:38:43 DEBUG payment-service Payload validation passed for schema v2.4
+2026-09-26 16:38:45 INFO payment-service Health check endpoint responded with status UP in 191ms
+2026-09-26 16:39:34 INFO auth Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 315ms
+2026-09-26 16:40:25 INFO order-service Health check endpoint responded with status UP in 93ms
+2026-09-26 16:41:49 INFO inventory Token refreshed successfully for bearer 5336
+2026-09-26 16:42:22 INFO notification-worker Processed request GET /api/v1/catalog HTTP/1.1 with status 200 in 160ms
+2026-09-26 16:42:39 INFO notification-worker User session established for account 6531
+2026-09-26 16:43:25 INFO order-service Inventory reservation succeeded for SKU-805
+2026-09-26 16:45:28 INFO api-gateway User session established for account 5678
+2026-09-26 16:45:45 ERROR notification-worker Database query timeout while updating order #73690
+2026-09-26 16:49:26 INFO inventory Token refreshed successfully for bearer 2208
+2026-09-26 16:57:18 INFO auth Order #62864 verified and dispatched to queue
+2026-09-26 16:58:22 INFO inventory Token refreshed successfully for bearer 8126
+2026-09-26 17:08:45 WARNING order-service Slow query detected on table orders: query took 88ms
+2026-09-26 17:09:52 INFO notification-worker Inventory reservation succeeded for SKU-686
+2026-09-26 17:15:13 INFO inventory Health check endpoint responded with status UP in 156ms
+2026-09-26 17:19:14 INFO order-service Inventory reservation succeeded for SKU-312
+2026-09-26 17:20:26 DEBUG api-gateway Serialized response buffer size 22242 bytes
+2026-09-26 17:20:59 DEBUG inventory Payload validation passed for schema v2.4
+2026-09-26 17:22:35 INFO notification-worker Inventory reservation succeeded for SKU-224
+2026-09-26 17:23:21 WARNING notification-worker Retry attempt 1/3 for downstream endpoint notification-service
+2026-09-26 17:23:48 INFO api-gateway User session established for account 4261
+2026-09-26 17:28:15 DEBUG api-gateway Acquired database connection from pool [active=14, idle=6]
+2026-09-26 17:30:33 INFO payment-service Token refreshed successfully for bearer 6140
+2026-09-26 17:32:29 INFO payment-service Inventory reservation succeeded for SKU-123
+2026-09-26 17:32:53 INFO inventory User session established for account 9721
+2026-09-26 17:35:18 INFO auth Dispatching delivery notification email to user 7329
+2026-09-26 17:40:01 DEBUG inventory Acquired database connection from pool [active=14, idle=6]
+2026-09-26 17:41:16 INFO notification-worker Dispatching delivery notification email to user 8849
+2026-09-26 17:41:43 INFO payment-service Order #85172 verified and dispatched to queue
+2026-09-26 17:43:39 ERROR auth Failed to deserialize incoming JSON payload from client
+2026-09-26 17:44:17 INFO api-gateway Token refreshed successfully for bearer 2789
+2026-09-26 17:46:03 DEBUG inventory Serialized response buffer size 33442 bytes
+2026-09-26 17:46:23 INFO payment-service Order #52965 verified and dispatched to queue
+2026-09-26 17:49:55 INFO notification-worker Dispatching delivery notification email to user 5331
+2026-09-26 17:52:22 INFO api-gateway Inventory reservation succeeded for SKU-394
+2026-09-26 17:55:54 INFO notification-worker Token refreshed successfully for bearer 2020
+2026-09-26 17:55:57 DEBUG api-gateway Serialized response buffer size 17242 bytes
